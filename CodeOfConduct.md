@@ -16,6 +16,6 @@ Be on time for meetings. Sometimes I may not be due to other commitments, but my
 
 Do not use your phone or laptop in meeting if not to take notes or find resources to contribute to the conversation. This is out of respect to your teammates: if they are speaking the should be heard! At times I will not be able to be offline during meetings due to other academic commitments. I am sorry and apologize in advance about it.
 
-Please find and carefully some resources for the group here. 
+Please find and carefully some resources for the group here https://github.com/fedhere/FBBTeamResources . 
 
 Every day I try to remind myself of these rules, but I do too fail to respect them at times. If you notice that I have not followed any of these rules, or you think I am adopting behaviors that make you uncomfortable please promptly do let me know!
