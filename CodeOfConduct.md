@@ -1,4 +1,4 @@
-Federica Bianco Research Group Code of Conduct
+# Federica's Research Group Code of Conduct
 
 
 Diversity is considered a resource that enriches us culturally and intellectually in my group. No instances of harassment or attempts to marginalize members of the group or colleagues outside our group will be tolerated in my group. 
