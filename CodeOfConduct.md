@@ -17,5 +17,5 @@ I expect to see a supportive, collaborative attitude from all of my collaborator
 
 Every day I try to remind myself of all these norms, but I do too fail to respect them at times. If you notice that I have not followed any of these rules, or you think I am adopting behaviors that make you uncomfortable please promptly let me know!
 
-Please find and carefully revieew all resources I made available to the group here https://github.com/fedhere/FBBTeamResources . 
+Please find and carefully review all resources I made available to the group here https://github.com/fedhere/FBBTeamResources . 
 
