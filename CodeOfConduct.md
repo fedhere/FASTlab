@@ -2,9 +2,7 @@
 
 **Diversity is a resource that enriches us culturally and intellectually. Thank you for making this space harassment free and inclusive to all members of the group and outside colleagues**. If you have concerns, if you do not feel safe or are made to feel unwelcome in this research environment, please come talk to me. If you feel targeted, come talk to me. If you see instances of ill-natured interactions please come talk to me (keeping in mind that I am a mandatory reporter according to [Title IX](https://sites.udel.edu/sexualmisconduct/how-to-report/guidelines-for-reporting/)). There are many additional resources at UDel if you wish to employ independent reporting channels; please see [this list of resources](UDelResources.md). 
 
-This Code of Conduct supplements, and does not overwrite, the Codes of Conduct that you are bind to in your role at UDel. For example [here is the UDel students' CoC](http://www1.udel.edu/stuguide/18-19/code.html)
-
-The following Code of cOnduct applies to all interactions of members of my research group, online and offline, including social media, mailing lists, forums, meetings, conferences, and one-to-one interactions.
+The following Code of Conduct applies to all interactions of members of my research group, online and offline, including social media, mailing lists, forums, meetings, conferences, and one-to-one interactions.
 
 - All members of the group should be treated with respect regardless of personal attributes, including but not limited to, race, ethniticity, gender, physical appearence, phyiscal abilities, religious believes, political affiliation or opinions, caregiver status, age, nationality, language.
 
@@ -15,6 +13,9 @@ The following Code of cOnduct applies to all interactions of members of my resea
 - All members of the group are empowered to request that an undesirable behavior is dismissed. 
 
 - All members are expected to immediately stop any behavior inconsistent with the Code of Conduct regardless of original intent.
+
+This Code of Conduct supplements, and does not overwrite, the Codes of Conduct that you are bind to in your role at UDel. For example [here is the UDel students' CoC](http://www1.udel.edu/stuguide/18-19/code.html)
+
 
 ## Group Interactions and meeting conduct:
 I expect to see a supportive, collaborative attitude from all of my collaborators to assure we maintain and foster a learning environment that leads to rigor, excellence, and happiness. This includes: 
