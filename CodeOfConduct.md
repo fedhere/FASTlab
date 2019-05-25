@@ -4,6 +4,18 @@
 
 This Code of Conduct supplements, and does not overwrite, the Codes of Conduct that you are bind to in your role at UDel. For example [here is the UDel students' CoC](http://www1.udel.edu/stuguide/18-19/code.html)
 
+The following Code of cOnduct applies to all interactions of members of my research group, online and offline, including social media, mailing lists, forums, meetings, conferences, and one-to-one interactions.
+
+- All members of the group should be treated with respect regardless of personal attributes, including but not limited to, race, ethniticity, gender, physical appearence, phyiscal abilities, religious believes, political affiliation or opinions, caregiver status, age, nationality, language.
+
+- Harrasment, verbal or physical, are not tollerated. Keep in mind that what is acceptable to one person may not be acceptable to another. 
+
+- Bullying, including physical bullying, exclusion, marginalization, disparagement, or intimidation, is not tolerated.
+
+- All members of the group are empowered to request that an undesirable behavior is dismissed. 
+
+- All members are expected to immediately stop any behavior inconsistent with the Code of Conduct regardless of original intent.
+
 ## Group Interactions:
 I expect to see a supportive, collaborative attitude from all of my collaborators to assure we maintain and foster a learning environment that leads to rigor, excellence, and happiness. This includes: 
 
