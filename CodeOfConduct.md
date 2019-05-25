@@ -19,6 +19,7 @@ I expect to see a supportive, collaborative attitude from all of my collaborator
 
 - be on time for meetings, with me and any other teammates (and anyone else). I am admittedly terrible at that. But my poor example should not be an excuse for you to be late and it is important *for you* to maximize your time with me and with your teammates, in addition to being a demonstration of respect toward the team. 
 
+Here is an excellent example of  [social rules that foster collaborative environments from the *Recourse Center*](https://www.recurse.com/social-rules).
 
 Every day I try to remind myself of all these norms, but I do too fail to respect them at times. If you notice that I have not followed any of these rules, or you think I am adopting behaviors that make you uncomfortable please promptly let me know!
 Please find and carefully review all resources I made available to the group here https://github.com/fedhere/FBBTeamResources . The preferred way to receive suggestions about these documents is via isses and pull requests in this repo. Thank you!
