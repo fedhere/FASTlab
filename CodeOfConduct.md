@@ -1,7 +1,6 @@
 # Federica's Research Group Code of Conduct
 
-
-Diversity is considered a resource that enriches us culturally and intellectually in my group. No instances of harassment or attempts to marginalize members of the group or colleagues outside our group will be tolerated. If you have concerns, if you do not feel safe or are made to feel unwelcome, please come talk to me. If you feel targeted, come talk to me. If you see instances of ill-natured interactions please come talk to me (keeping in mind that I am a mandatory reporter according to Title IX - https://sites.udel.edu/sexualmisconduct/how-to-report/guidelines-for-reporting/)
+Diversity is a resource that enriches us culturally and intellectually. Thank you for making this space harassment free and inclusive to all members of the group and outside colleagues. If you have concerns, if you do not feel safe or are made to feel unwelcome in this research environment, please come talk to me. If you feel targeted, come talk to me. If you see instances of ill-natured interactions please come talk to me (keeping in mind that I am a mandatory reporter according to Title IX - https://sites.udel.edu/sexualmisconduct/how-to-report/guidelines-for-reporting/). There are many additional resources at UDel if you experience harrasment, feel unsafe or targeted, or have any other issues: please see this list of resources []. 
 
 I expect to see a supportive, collaborative attitude from all of my collaborators to assure we maintain and foster a learning environment that leads to rigor, excellence, and happiness. This includes: 
 
