@@ -16,7 +16,7 @@ The following Code of cOnduct applies to all interactions of members of my resea
 
 - All members are expected to immediately stop any behavior inconsistent with the Code of Conduct regardless of original intent.
 
-## Group Interactions:
+## Group Interactions and meeting conduct:
 I expect to see a supportive, collaborative attitude from all of my collaborators to assure we maintain and foster a learning environment that leads to rigor, excellence, and happiness. This includes: 
 
 
@@ -26,7 +26,6 @@ I expect to see a supportive, collaborative attitude from all of my collaborator
 
 - be conscientious and value your teammates time when asking for help. Make sure you have done your share of weight lifting: you have reviewed the resources available to the group and looked around for answers when applicable. Prepare yourself to receive help: be prepared to ask clear questions and to be able to show and demonstrate the issues you are having. Your teammates should not be struggling to understand what your problem is (this includes having access to the computers where you are running your codes if the question is technical/computational, and being able to reproduce errors and behaviors for which you seek help).
 
-## Meetings conduct:
 - do not use your phone or laptop in meetings if not to take notes or find resources to contribute to the conversation. This is out of respect for your teammates: if they are speaking they should be heard! 
 
 - be on time for meetings, with me and any other teammates (and anyone else). I am admittedly terrible at that. But my poor example should not be an excuse for you to be late and it is important *for you* to maximize your time with me and with your teammates, in addition to being a demonstration of respect toward the team. 
