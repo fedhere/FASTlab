@@ -1,3 +1,3 @@
 # resources:
 
-python bootcamp (by Mohit Sharma)
+[python bootcamp](https://sharmamohit.com/tutorials/ucsl/) (by Mohit Sharma)
