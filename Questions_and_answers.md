@@ -25,7 +25,9 @@ If you have an error on your terminal copy and paste
 and/or share a screenshot of 
 - what **the command** that causes the error is, and 
 - what **the full error** is. If it is code you are running, 
-make sure we have access to the code to inspect it (share it on _GitHub_). Tell us which platform you are working on, Google COlab, or locally on a Linux, Mac, Windows (git bash or something else...), which versino of _python_ you are using etc. 
+- make sure we have access to the code to inspect it (share it on _GitHub_) whenever possible,
+- tell us which platform you are working on, Google COlab, or locally on a Linux, Mac, Windows (git bash or something else...), which versino of _python_ you are using etc.
+
 Otherwise it's gonna be _garbage in -> garbage out_. 
 I recommand you look on http://stackoverflow.com/ to get a sense of how people 
 write questions the proper way, and by all means not everyone does. Look at the replies and see 
