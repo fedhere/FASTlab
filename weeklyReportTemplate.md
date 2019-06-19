@@ -4,9 +4,9 @@
 
 ### 1.1 Papers Read
 
-<link1> : Couple of sentence summary of paper 1.
+\<link1\> : Couple of sentence summary of paper 1.
 
-<link2> : Couple of sentence summary of paper 2.
+\<link2\> : Couple of sentence summary of paper 2.
 .
 .
 .
