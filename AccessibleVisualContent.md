@@ -59,4 +59,4 @@ Tamara Munzner [Visualization Analysis & Design, 2014](http://www.cs.ubc.ca/~tmm
 [7 Great Visualizations from History)[https://web.archive.org/web/20171114145335/http://data-informed.com/7-great-visualizations-history/)
 
 
-[Using preattemptive processing elements](https://pdfs.semanticscholar.org/0456/bc9cdf02c3a446e252cf2e6b83145e17749a.pdf)
+(Using preattemptive processing elements)[https://pdfs.semanticscholar.org/0456/bc9cdf02c3a446e252cf2e6b83145e17749a.pdf]
