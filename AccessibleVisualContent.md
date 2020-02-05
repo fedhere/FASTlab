@@ -23,3 +23,6 @@ There is [the intent](https://github.com/matplotlib/matplotlib/issues/9460) to m
 # Make sure that your slides are readable to dyslexic and vision impaired members of the audience, and overall clear and accessible
 
 Follow [these recommandations](https://www.ifla.org/files/assets/hq/officers/documents/wbu-visual-presentations-guidelines-summary.pdf) from the World Blind Union about fonts, font size, color, brightness, and contrast choices. Follow [these recommandation about graphic design](https://www.presentationzen.com/chapter6_spread.pdf)
+
+See more recommandations about visualizations in [these lecture slides](https://slides.com/federicabianco/dsps2019_vii)
+
