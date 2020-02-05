@@ -52,11 +52,11 @@ Edwaed tufte (anything)
 
 Tamara Munzner [Visualization Analysis & Design, 2014](http://www.cs.ubc.ca/~tmm/talks/minicourse14/vad15london.pdf)
 
-(color maps)[http://www.kennethmoreland.com/color-maps/]
+[color maps](http://www.kennethmoreland.com/color-maps/)
 
-(Kelly colors)[https://medium.com/@rjurney/kellys-22-colours-of-maximum-contrast-58edb70c90d1]
+[Kelly colors](https://medium.com/@rjurney/kellys-22-colours-of-maximum-contrast-58edb70c90d1)
 
-(7 Great Visualizations from History)[https://web.archive.org/web/20171114145335/http://data-informed.com/7-great-visualizations-history/]
+[7 Great Visualizations from History)[https://web.archive.org/web/20171114145335/http://data-informed.com/7-great-visualizations-history/)
 
 
-(Using preattemptive processing elements)[https://pdfs.semanticscholar.org/0456/bc9cdf02c3a446e252cf2e6b83145e17749a.pdf]
+[Using preattemptive processing elements](https://pdfs.semanticscholar.org/0456/bc9cdf02c3a446e252cf2e6b83145e17749a.pdf)
