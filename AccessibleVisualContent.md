@@ -24,5 +24,25 @@ There is [the intent](https://github.com/matplotlib/matplotlib/issues/9460) to m
 
 Follow [these recommandations](https://www.ifla.org/files/assets/hq/officers/documents/wbu-visual-presentations-guidelines-summary.pdf) from the World Blind Union about fonts, font size, color, brightness, and contrast choices. Follow [these recommandation about graphic design](https://www.presentationzen.com/chapter6_spread.pdf)
 
+Here are some general recommandations about visualizations and slides. 
+
+Limit the number of word in your slides. 
+
+Limit animation to essential and simple items (e.g. fade in only when helpful to highlight differences, slide transitions only in correspondence of a change of topic)
+
+Simplify your plots and assign only one graphical element (color, shape, texture) to each data feature.
+
+Do not use: 
+  - pie charts. They are perceptually inconsistent with the mathematical proportions that they represents. Dounught cuarts and bar charts are good alternatives
+  - 3D graphice. Deformation, obstruction, and distraction are all issues with 3D graphics. Only use perspective where it is strictly nevessary to represent physical shapes and proportions (e.g. in a model)
+  - rainbow color schemes: they are perceptually dishomogeneous leading to percieve edgese where there are smooth transitions, miss subtle changes in the data, and focus on portions of the data. Black and white or shaes of gray are almost always a great choice. Viridis, Gist, and other "perceptually uniform" color maps are better choices than rainbow, always and forever.
+ 
+Use color functionally rather than esthetically to highlight features in data.
+
+Learn the difference between and different applications of perceptually uniform, sequencial, and diverging color schemes:
+  - use sequencial color schemes (color schemes base on one hue that fades to white or black progressively) where the data has a natural "low" and a natural "high" point
+  - use diverging color schemes (color schemes where two different hues start at a common point) only when the data you are representing has a natural 0 point or center, and make sure that the convergence of the colors corresponds with this point in the data. 
+  - use perceptually uniform color schemes when no region of your data is of particular relevance compared to the rest of the feature space.
+  
 See more recommandations about visualizations in [these lecture slides](https://slides.com/federicabianco/dsps2019_vii)
 
