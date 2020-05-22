@@ -48,6 +48,8 @@ See more recommandations about visualizations in [these lecture slides](https://
 
 Resources:
 
+[this blog post](https://personal.sron.nl/~pault/)
+
 Edwaed tufte (anything)
 
 Tamara Munzner [Visualization Analysis & Design, 2014](http://www.cs.ubc.ca/~tmm/talks/minicourse14/vad15london.pdf)
