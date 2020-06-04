@@ -1,4 +1,4 @@
-# Federica's Research Group Code of Conduct
+# Federica's Research Group Value Statement and Rules of Engagement
 
 **Diversity is a resource that enriches us culturally and intellectually. Thank you for making this space harassment free and inclusive to all members of the group and outside colleagues**. If you have concerns, if you do not feel safe or are made to feel unwelcome in this research environment, please come talk to me. If you feel targeted, come talk to me. If you see instances of ill-natured interactions please come talk to me (keeping in mind that I am a mandatory reporter according to [Title IX](https://sites.udel.edu/sexualmisconduct/how-to-report/guidelines-for-reporting/) and [here](TitleIX.md)). There are many additional resources at UDel if you wish to employ independent reporting channels; please see [this list of resources](UDelResources.md). 
 
