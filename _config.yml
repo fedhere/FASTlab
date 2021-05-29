@@ -4,11 +4,12 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - CONTRIBUTING.md
+  - AccessibleVisualContent.md
+  - Questions_and_answers.md
   - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
+  - TitleIX.md
+  - dockerBasicInstructions.md
+  - dockerInstallation.md
+  - git&Github.md
+  - minimumPEP8.md
+  - weeklyReportTemplate.md
