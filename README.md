@@ -8,7 +8,7 @@ Other resources include
 
 [How-to getting involved in grants]
 
-[docker image](https://hub.docker.com/r/mohitsharma44/ucsl-image/dockerfile/) (kindly created by Mohit Sharma) (and [docker 101](https://itnext.io/docker-101-fundamentals-the-dockerfile-b33b59d0f14b) )
+[docker image](https://hub.docker.com/r/mohitsharma44/ucsl-image/dockerfile/) (kindly created by Mohit Sharma) (and [docker 101](https://itnext.io/docker-101-fundamentals-the-dockerfile-b33b59d0f14b))
 
 [python bootcamp](https://sharmamohit.com/tutorials/ucsl/) (by Mohit Sharma)
 
