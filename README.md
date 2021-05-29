@@ -1,7 +1,7 @@
 # Welcome to FAST Lab! (Federica Astro-STatistics research group) :
 
 This repository collect resources for Federica Bianco's research group. 
-First thing you should read is the [CodeOfConduct](https://github.com/fedhere/FBBTeamResources/blob/master/CodeOfConduct.md) which I created to help fostering a healthy research environment. 
+First thing you should read is the [CodeOfConduct](https://fedhere.github.io/FASTlabTeamResources/CodeOfConduct.html) which I created to help fostering a healthy research environment. 
 
 Other resources include 
 [When to expect to be co-author on a paper from our group (or other groups)]
