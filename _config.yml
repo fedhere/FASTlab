@@ -13,3 +13,5 @@ include:
   - git&Github.md
   - minimumPEP8.md
   - weeklyReportTemplate.md
+
+theme: jekyll-theme-tactile
