@@ -1,5 +1,5 @@
 # Welcome to FAST Lab! (Federica Astro-STatistics research group) :
-You can view this at [https://fedhere.github.io/FASTlabTeamResources/](https://fedhere.github.io/FASTlabTeamResources/)
+You can view this at [https://fedhere.github.io/FASTlab](https://fedhere.github.io/FASTlab)
 
 This repository collect resources for Federica Bianco's research group. 
 First thing you should read is the [CodeOfConduct](https://fedhere.github.io/FASTlabTeamResources/CodeOfConduct.html) which I created to help fostering a healthy research environment. 
