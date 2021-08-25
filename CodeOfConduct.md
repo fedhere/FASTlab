@@ -4,7 +4,7 @@
 
 The following Code of Conduct applies to all interactions of members of my research group, online and offline, including social media, mailing lists, forums, meetings, conferences, and one-to-one interactions.
 
-- All members of the class should be treated with respect regardless of personal attributes, including but not limited to: race, ethnicity, gender or gender identity, physical appearance, physical abilities, religious beliefs, political affiliation or opinions, sexual preference, caregiver status, age, nationality, language.
+- All members of the group should be treated with respect regardless of personal attributes, including but not limited to: race, ethnicity, gender or gender identity, physical appearance, physical abilities, religious beliefs, political affiliation or opinions, sexual preference, caregiver status, age, nationality, language.
 
 - Harassment, verbal or physical, are not tolerated. Keep in mind that what is acceptable to one person may not be acceptable to another.
 
