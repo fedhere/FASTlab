@@ -2,8 +2,9 @@ In one shell:
 - ```ssh user_name@caviness.hpc.udel.edu```
 - ```workgroup -g dsi```
 ```screen```
-```salloc --partition=devel --cpus-per-task=2 OR\
-               salloc --partition=_workgroup_ --gres=gpu --time=1:00:00```
+```salloc --partition=devel --cpus-per-task=2 ```
+OR
+```salloc --partition=_workgroup_ --gres=gpu --time=1:00:00```
               
 ```jupyter notebook --no-browser --port=18889```
 
