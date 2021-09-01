@@ -8,9 +8,9 @@ First thing you should read is the [CodeOfConduct](https://fedhere.github.io/FAS
 
 Other resources include 
 
-[When to expect to be co-author on a paper from our group (or other groups)]()
+[When to expect to be co-author on a paper from our group (or other groups)](https://github.com/fedhere/FASTlab/blob/master/Authorship%20matters.md)
 
-[How-to getting involved in writing and winning grants]()
+[How-to getting involved in writing (and winning) grants]()
 
 [docker image](https://hub.docker.com/r/mohitsharma44/ucsl-image/dockerfile/) (kindly created by Mohit Sharma) (and [docker 101](https://itnext.io/docker-101-fundamentals-the-dockerfile-b33b59d0f14b))
 
