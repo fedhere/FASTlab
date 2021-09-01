@@ -8,6 +8,8 @@ First thing you should read is the [CodeOfConduct](https://fedhere.github.io/FAS
 
 Other resources include 
 
+[Commonly used acronyms](https://github.com/fedhere/FASTlab/blob/master/Commonly%20Used%20Acronyms%20in%20FASTlab.md)
+
 [When to expect to be co-author on a paper from our group (or other groups)](https://github.com/fedhere/FASTlab/blob/master/Authorship%20matters.md)
 
 [How-to getting involved in writing (and winning) grants... coming soon]()
