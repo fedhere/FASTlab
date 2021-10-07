@@ -1,7 +1,7 @@
 ## Minimal PEP8 requitements:
 The full list of PEP8 style guidelines is far longer https://www.python.org/dev/peps/pep-0008/ but here are the main tules that we will be strict about starting with the midterm.
 
-- Maximum line length: 79 characters. you will not be failed if your lines get to 85 or anything like that, but dont get crazy with the line length
+- Maximum line length: 79 characters.  if your lines get to 85 once in a while may not be a huge deal, but dont get crazy with the line length
 
 - import packages one at a time:
   ```
