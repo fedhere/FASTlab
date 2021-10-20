@@ -46,6 +46,7 @@ Learn the difference between and different applications of perceptually uniform,
   
 See more recommandations about visualizations in [these lecture slides](https://slides.com/federicabianco/dsps2019_vii)
 
+Consider alternative date every presentations, like sonification! [see this TED talk](https://www.ted.com/talks/wanda_diaz_merced_how_a_blind_astronomer_found_a_way_to_hear_the_stars/up-next) and some of our own work on this [here](https://docs.google.com/presentation/d/1iWWj8edRjE10VHMdB47U9twn7KwhQU5RkDJ1SOcOuJQ)
 Resources:
 
 [this blog post](https://personal.sron.nl/~pault/)
