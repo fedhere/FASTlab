@@ -1,4 +1,4 @@
-When presenting results and concepts make sure you make your graphics and visual assetts accessible. It is an issue of social justice, as you do not want to cut out any members of your audience due to physical deficiencies or impairments, and it is beneficial to you to be able to communicate your message to the wudest audience possible. 
+When presenting results and concepts make sure you make your graphics and visual assetts accessible. It is an issue of social justice, as you do not want to cut out any members of your audience due to perceptive differences or impairments, and it is beneficial to you to be able to communicate your message to the wudest audience possible. 
 
 # The choice of color and fonts will affect the perception and accessibility of the information you are sharing. 
 
