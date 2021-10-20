@@ -50,6 +50,8 @@ Consider alternative data representations, like sonification! [see this TED talk
 
 Resources:
 
+[a paper written by disabled academics](https://www.ismpmi.org/Community/Interactions/Lists/Posts/Post.aspx?ID=412)
+
 [this blog post](https://personal.sron.nl/~pault/)
 
 Edwaed tufte (anything)
