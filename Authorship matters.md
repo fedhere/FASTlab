@@ -1,11 +1,10 @@
-There are many ways to measure an academic career, but the most common ones use some form of "impact": how prolific an author is and many citations does your work generate. 
+There are many ways to measure an academic career, but the most common ones use some form of "impact": how prolific an author is and many citations does their work generates. 
 
-The sheer number of papers you publish matters when you are looking for jobs. I have lots of opinions about the pros and cons of it, but that is a fact. 
+The sheer number of papers you publish matters when you are looking for jobs. I have lots of opinions about the pros and cons of using this metric to value scientists, but that is a fact. 
 
 I want to set clear rules and expectations for when a group member is included in a publication of our group, but also discuss what your expectations should be when you collaborate with people outside our team and when you should be expected to be a coauthor on publications. 
 
 The basic rule is that **anyone who made a contribution of creative content to the project should be a coauthor**. But this statement is awfully ambiguous. We have lots of conversations with colleagues in academia, and one could argue all of them contribute to the creative process after all!
-
 
 I generally have a liberal policy on co-authorship: I tend to be inclusive. Other people do not.
 
