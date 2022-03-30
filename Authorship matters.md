@@ -2,7 +2,7 @@ There are many ways to measure an academic career, but the most common ones use 
 
 The sheer number of papers you publish matters when you are looking for jobs. I have lots of opinions about the pros and cons of using this metric to value scientists, but that is a fact. 
 
-I want to set clear rules and expectations for when a group member is included in a publication of our group, but also discuss what your expectations should be when you collaborate with people outside our team and when you should be expected to be a coauthor on publications. 
+I want to set clear rules and expectations for when a FASTLab group member is included in a publication of the FASTLab, but also discuss what your expectations should be when you collaborate with people outside our team and when you should be expected to be a coauthor on publications. 
 
 The basic rule is that **anyone who made a contribution of creative content to the project should be a coauthor**. But this statement is awfully ambiguous. We have lots of conversations with colleagues in academia, and one could argue all of them contribute to the creative process after all!
 
@@ -20,7 +20,7 @@ If there are other clear core contributors, for example, if this is the product 
 
 If there are any other colleagues losely involved (for example people external to the group that contributed before our group took ownership of the project, or with whom we consulted, or that provided access to datasets) they will follow after the core authors in alphabetical order. 
 
-**I want to emphasize that this should be your expectations for any paper outside of your group as well: if you wrote code, wrote words, or participated in regular topical meetings on a project you should expect to be a co-author!** But this does not always happen... and the conversation may be awkward. I did write code for several papers that I was ultimately not included in and I am bitter about it, but did not feel comfortable with calling a person more senior than me out on this. **But that is where I come in! my responsibility is to protect the interest of the people in my group so if you feel like you contributed to work and are being left out but are uncomfortable discussing it with the project lead ask me to intercede for you!**
+**I want to emphasize that this should be your expectations for any paper outside of FASTLab as well: if you wrote code, wrote words, or participated in regular topical meetings on a project you should expect to be a co-author!** But this does not always happen... and the conversation may be awkward. I did write code for several papers that I was ultimately not included in and I am bitter about it, but did not feel comfortable with calling a person more senior than me out on this. **But that is where I come in! my responsibility is to protect the interest of the people in my group so if you feel like you contributed to work and are being left out but are uncomfortable discussing it with the project lead ask me to intercede for you!**
 
 
 
