@@ -14,7 +14,7 @@ As an idea turns into a project tho, someone may make foundational contributions
 
 Authorship order also matters. It is different in different fields but in Astronomy, Public Policy, Urban Science, it is generally understood that the lead author (first author) is the main contributor. 
 
-In most cases, I will set myself as the last author in papers from our group. The last author is commonly the P.I. (Principal Investigator) in most disciplines, but occasionally I may instead appear as the second or third author tho (In astrophysics, many groups leads put themselves as second authors in most cases). 
+In most cases, I will set myself as the last author in papers from our group. The last author is commonly the P.I. (Principal Investigator) in most disciplines, but occasionally I may instead appear as the second or third author tho (in astrophysics, many groups leads put themselves as second authors in most cases). 
 
 If there are other clear core contributors, for example, if this is the product of a larger collaboration, but also people from our group that worked on part of the code (for example, in a summer project an undergraduate may make contributions to a project that is the thesis of a grad student) they will appear in order of the significance of the contribution (which of course... is somewhat subjective). 
 
