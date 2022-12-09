@@ -34,7 +34,7 @@ Simplify your plots and assign only one graphical element (color, shape, texture
 
 Do not use: 
   - pie charts. They are perceptually inconsistent with the mathematical proportions that they represents. Dounught cuarts and bar charts are good alternatives
-  - 3D graphice. Deformation, obstruction, and distraction are all issues with 3D graphics. Only use perspective where it is strictly nevessary to represent physical shapes and proportions (e.g. in a model)
+  - 3D graphics. Deformation, obstruction, and distraction are all issues with 3D graphics. Only use perspective where it is strictly nevessary to represent physical shapes and proportions (e.g. in a model)
   - rainbow color schemes: they are perceptually dishomogeneous leading to percieve edgese where there are smooth transitions, miss subtle changes in the data, and focus on portions of the data. Black and white or shaes of gray are almost always a great choice. Viridis, Gist, and other "perceptually uniform" color maps are better choices than rainbow, always and forever.
  
 Use color functionally rather than esthetically to highlight features in data.
