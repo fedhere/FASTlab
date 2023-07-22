@@ -5,10 +5,10 @@ Overleaf is the platform on which we can collaboratively edit latex-based articl
 
 UD CAS supports Overleaf upgraded subscriptions! make sure you get the upgraded subscription thorugh UD so you can activate the "track changes" after you finish your first draft and invite more than one coauthor.
 
+Make sure you name your file something specific: while "thesis" may be unique for you, it is not for me since I am on all of FASTLab thesis documents!
+
 Invite me (and the core coauthors) as an author.
 <img width="540" alt="Screen Shot 2023-07-22 at 12 24 40 PM" src="https://github.com/fedhere/FASTlab/assets/1696902/0de7a002-71eb-4a87-944d-35baf16e4fd0">
-
-Make sure you name your file something specific: while "thesis" may be unique for you, it is not for me since I am on all of FASTLab thesis documents!
 
 Add the following macros to your header (the top of the document before \begin{document}):
 
