@@ -22,8 +22,11 @@ Add the following macros to your header (the top of the document before \begin{d
 
 \newcommand{\eg}{\emph{e.g.}}
 ```
+Then use \new{...} to change or add new text after discussions and suggestions from authors. Authors can use \question{...} to put questions in the text or to flag things that need to be discussed or changes, or checked and add a comment. This is what it will look like
 
-Then use \new{...} to change or add new text after discussions and suggestions from authors. Authors can use \question{...} to put questions in the text or to flag things that need to be discussed or changes, or checked and add a comment.
+<img width="390" alt="Screen Shot 2023-07-22 at 12 26 56 PM" src="https://github.com/fedhere/FASTlab/assets/1696902/2cf94f4c-cdb5-415d-b1e5-c15bc7f82dfd">
+<img width="368" alt="Screen Shot 2023-07-22 at 12 27 17 PM" src="https://github.com/fedhere/FASTlab/assets/1696902/83aaaeca-e01d-4376-95be-3e8004085615">
+
 
 Consider adding a macro with a different color (like the ones defined above as \new and \question) for each coauthor if its a small number of coauthors.
 
