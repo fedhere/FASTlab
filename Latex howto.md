@@ -28,7 +28,8 @@ Then use \new{...} to change or add new text after discussions and suggestions f
 <img width="368" alt="Screen Shot 2023-07-22 at 12 27 17 PM" src="https://github.com/fedhere/FASTlab/assets/1696902/83aaaeca-e01d-4376-95be-3e8004085615">
 
 
-Consider adding a macro with a different color (like the ones defined above as \new and \question) for each coauthor if its a small number of coauthors.
+Consider adding a macro with a different color (like the ones defined above as \new and \question) for each coauthor if its a small number of coauthors (e.g. `\newcommand{\fbb}[1]{{\color{cyan} #1}}`
+
 
 ## latex and common and editorial syntax rules
 
