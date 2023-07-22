@@ -9,6 +9,7 @@ Make sure you name your file something specific: while "thesis" may be unique fo
 Add the following macros to your header (the top of the document before \begin{document}):
 
 ```
+
 \newcommand{\new}[1]{{\color{blue} #1}}
 
 \newcommand{\question}[1]{{\color{red} #1}}
