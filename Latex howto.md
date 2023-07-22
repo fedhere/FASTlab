@@ -41,6 +41,16 @@ Consider adding a macro with a different color (like the ones defined above as \
 
 - quotes should be `` ' ' instead of “” in latex
 
+- create macros for common variables you will need to refer to often. so that they are formatted the same all the time: e.g. kilometer per second as $km s^-1$, or SNR for signal-to-noise-ratio if you are writing an data analysis paper or IoU for Intersection over Union if you are writing a computational paper, or Eta Carinae as $\eta-$Car if you are writing an astro paper. This is done as follows: 
+```
+\newcommand{\kms}{\ensuremath{{km}{s^1}}}
+\newcommand{\SNR}{\ensuremath{\mathrm{\emph{SNR}}}}
+\newcommand{\iou}{\ensuremath{\mathrm{{IoU}}}
+\newcommand{\etacar}{\ensuremath{\mathrm{\eta-\emph{Car}}}}
+```
+
+then simply use `\kms` when you want to include the km/s units, which will render in  $km s^-1$. Note however that when you use a macro the next word will appear without a space between. To add a space between the macro and the next word use it as `\kms\`
+
 ## citations
 - Use `\citep{}` if you want the citation to appear in parenthesis: `the LSST \citep{ivezic19}` => *the LSST (Ivezić et al. 2019)*, this is the most common case.
 - If you however want to integrate the citation in the narrative use `\citet{}`: `As discussed in \citet{Ivezic19}` => *As discussed in Ivezić et al. (2019)*. 
