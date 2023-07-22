@@ -1,3 +1,5 @@
+## creating the document
+
 UD CAS allows latex upgraded subscriptions! make sure you get the upgraded subscription thorugh UD so you can activate the "track changes" and invite more than one coauthor
 
 Invite me (and the core coauthors) as an author.
@@ -17,6 +19,8 @@ Add the following macros to your header (the top of the document before \begin{d
 Then use \new{...} to change or add new text after discussions and suggestions from authors. Authors can use \question{...} to put questions in the text or to flag things that need to be discussed or changes, or checked and add a comment.
 
 Consider adding a macro with a different color (like the ones defined above as \new and \question) for each coauthor if its a small number of coauthors.
+
+## latex and common and editorial syntax rules
 
 - use \autoref{label} instead of \ref: that adds the Figure or Table word before the number as a part of the clickable element
 
