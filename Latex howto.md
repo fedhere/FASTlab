@@ -49,7 +49,7 @@ Consider adding a macro with a different color (like the ones defined above as \
 \newcommand{\etacar}{\ensuremath{\mathrm{\eta-\emph{Car}}}}
 ```
 
-then simply use `\kms` when you want to include the km/s units, which will render in  $km s^-1$. Note however that when you use a macro the next word will appear without a space between. To add a space between the macro and the next word use it as `\kms\`
+then simply use `\kms` when you want to include the km/s units, which will render in  $km s^{-1}$. Note however that when you use a macro the next word will appear without a space between. To add a space between the macro and the next word use it as `\kms\ `
 
 ## citations
 - Use `\citep{}` if you want the citation to appear in parenthesis: `the LSST \citep{ivezic19}` => *the LSST (Ivezić et al. 2019)*, this is the most common case.
