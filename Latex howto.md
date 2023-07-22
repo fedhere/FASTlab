@@ -1,3 +1,6 @@
+If you have never used LaTeX, start with this "LaTeX in 30 min" webpage offered by Overleaf https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+Overleaf is the platform on which we can collaboratively edit latex-based articles. When you want to start a new paper or report, go to [overleaf.com](https://www.overleaf.com)
+
 ## creating the document
 
 UD CAS allows latex upgraded subscriptions! make sure you get the upgraded subscription thorugh UD so you can activate the "track changes" and invite more than one coauthor
