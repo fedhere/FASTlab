@@ -41,7 +41,7 @@ Consider adding a macro with a different color (like the ones defined above as \
 
 - quotes should be `` ' ' instead of “” in latex
 
-- create macros for common variables you will need to refer to often, so that they are formatted consistently throughout: e.g. kilometer per second as $km s^{-1}$, or SNR for signal-to-noise-ratio if you are writing an data analysis paper or IoU for Intersection over Union if you are writing a computational paper, or Eta Carinae as $\eta-$Car if you are writing an astro paper. This is done as follows: 
+- create macros for common variables you will need to refer to often, so that they are formatted consistently throughout: e.g. kilometer per second as $km s^{-1}$, or *SNR* for signal-to-noise-ratio if you are writing an data analysis paper, or IoU for Intersection over Union if you are writing a computational paper, or Eta Carinae as $\eta-$ Car if you are writing an astro paper. This is done as follows: 
 ```
 \newcommand{\kms}{\ensuremath{{km}{s^1}}}
 \newcommand{\SNR}{\ensuremath{\mathrm{\emph{SNR}}}}
