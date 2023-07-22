@@ -8,13 +8,13 @@ Make sure you name your file something specific: while "thesis" may be unique fo
 
 Add the following macros to your header (the top of the document before \begin{document}):
 
-\newcommand{\new}[1]{{\color{blue} #1}}
+```\newcommand{\new}[1]{{\color{blue} #1}}
 
 \newcommand{\question}[1]{{\color{red} #1}}
 
 \newcommand{\ie}{\emph{i.e.}}
 
-\newcommand{\eg}{\emph{e.g.}}
+\newcommand{\eg}{\emph{e.g.}}```
 
 Then use \new{...} to change or add new text after discussions and suggestions from authors. Authors can use \question{...} to put questions in the text or to flag things that need to be discussed or changes, or checked and add a comment.
 
