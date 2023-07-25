@@ -33,7 +33,7 @@ Consider adding a macro with a different color (like the ones defined above as \
 
 ## latex and common and editorial syntax rules
 
-- use `\autoref{label}` instead of `\ref`: that adds the Figure or Table word before the number as a part of the clickable element
+- use `\autoref{label}` instead of `\ref`: that adds the Figure or Table word before the number as a part of the clickable element. Also remember that journals require figures and tables to be references in the thext **in the oreder in which they appear in the journal** (i.e. your first figure should be the first figure that you mention in the text etc etc)
 
 - photometric filter lables (e.g. g) should be italic `$g$`
 
