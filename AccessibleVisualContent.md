@@ -18,7 +18,18 @@ There is [the intent](https://github.com/matplotlib/matplotlib/issues/9460) to m
 
 2) Download apps to simulate different types of color blindness to assure your graphics and slides are readable for all people, siuch as the [colororacle](http://colororacle.org/)
 
-3) choose color-blind compliant palettes when designing slides. 
+3) choose color-blind compliant palettes when designing slides. :
+for example, seabors offers the following:
+```
+# for papers
+plt.style.use('seaborn-paper')
+# for presentations
+plt.style.use('seaborn-talk')
+# for papers with colors distinguishable by colorblind people
+plt.style.use('seaborn-colorblind') 
+# HACK: for presentations with colors distinguishable by colorblind people
+plt.style.use(['seaborn-colorblind', 'seaborn-talk'])
+```
 
 # Make sure that your slides are readable to dyslexic and vision impaired members of the audience, and overall clear and accessible
 
