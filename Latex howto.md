@@ -18,9 +18,9 @@ Add the following macros to your header (the top of the document before \begin{d
 
 \newcommand{\question}[1]{{\color {red} #1/\}\}/ 
 
-\newcommand{\ie}{\emph{i.e.}}
+\newcommand{\ie}{\emph{i.e./\}\}/ 
 
-\newcommand{\eg}{\emph{e.g.}}
+\newcommand{\eg}{\emph{e.g./\}\}/ 
 ```
 Then use `\new{...}` to change or add new text after discussions and suggestions from authors. Authors can use `\question{...}` to put questions in the text or to flag things that need to be discussed or changes, or checked and add a comment. This is what it will look like
 
@@ -43,10 +43,10 @@ Consider adding a macro with a different color (like the ones defined above as \
 
 - create macros for common variables you will need to refer to often, so that they are formatted consistently throughout: e.g. kilometer per second as $km s^{-1}$, or *SNR* for signal-to-noise-ratio if you are writing an data analysis paper, or IoU for Intersection over Union if you are writing a computational paper, or Eta Carinae as $\eta-$ Car if you are writing an astro paper. This is done as follows: 
 ```
-\newcommand{\kms}{\ensuremath{{km}{s^1}}}
-\newcommand{\SNR}{\ensuremath{\mathrm{\emph{SNR}}}}
+\newcommand{\kms}{\ensuremath{{km}{s^1}/\}\}/ 
+\newcommand{\SNR}{\ensuremath{\mathrm{\emph{SNR}/\}\}\}
 \newcommand{\iou}{\ensuremath{\mathrm{{IoU}}}
-\newcommand{\etacar}{\ensuremath{\mathrm{\eta-\emph{Car}}}}
+\newcommand{\etacar}{\ensuremath{\mathrm{\eta-\emph{Car}/\}\}\}
 ```
 
 then simply use `\kms` when you want to include the km/s units, which will render in  $km s^{-1}$. Note however that when you use a macro the next word will appear without a space between. To add a space between the macro and the next word use it as `\kms\ `
