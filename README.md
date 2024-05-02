@@ -2,7 +2,7 @@
 You can view this at [https://fedhere.github.io/FASTlab](https://fedhere.github.io/FASTlab)
 
 This repository collect resources for Federica Bianco's research group. 
-First thing you should read is the [CodeOfConduct](https://github.com/fedhere/FASTlab/blob/master/CodeOfConduct.md) which I created to help fostering a healthy research environment. 
+First thing you should read is the [CodeOfConduct](https://github.com/fedhere/FASTlab/blob/master/CodeOfConduct.md) which we created to help fostering a healthy research environment. 
 
 
 
