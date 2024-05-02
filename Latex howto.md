@@ -12,12 +12,12 @@ Invite me (and the core coauthors) as an author.
 
 Add the following macros to your header (the top of the document before \begin{document}):
 
-%```
+<!--```
 %\newcommand{\new}[1]{{\color {blue} #1/\}\}/ 
 %\newcommand{\question}[1]{{\color {red} #1/\}\}/ 
 %\newcommand{\ie}{\emph{i.e./\}\}/ 
 %\newcommand{\eg}{\emph{e.g./\}\}/ 
-%```
+%```-->
 <img width="332" alt="Screen Shot 2024-05-02 at 7 20 54 AM" src="https://github.com/fedhere/FASTlab/assets/1696902/05cdee35-c09c-4e95-990d-4c8d6f265b21">
 
 
