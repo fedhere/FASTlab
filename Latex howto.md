@@ -14,9 +14,9 @@ Add the following macros to your header (the top of the document before \begin{d
 
 ```
 
-\newcommand{\new}[1]{{\color{blue} #1}}
+\newcommand{\new}[1]{{\color {blue} #1}}
 
-\newcommand{\question}[1]{{\color{red} #1}}
+\newcommand{\question}[1]{{\color {red} #1}}
 
 \newcommand{\ie}{\emph{i.e.}}
 
