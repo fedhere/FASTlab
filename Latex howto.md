@@ -13,11 +13,11 @@ Invite me (and the core coauthors) as an author.
 Add the following macros to your header (the top of the document before \begin{document}):
 
 <!--```
-%\newcommand{\new}[1]{{\color {blue} #1/\}\}/ 
-%\newcommand{\question}[1]{{\color {red} #1/\}\}/ 
-%\newcommand{\ie}{\emph{i.e./\}\}/ 
-%\newcommand{\eg}{\emph{e.g./\}\}/ 
-%```-->
+\newcommand{\new}[1]{{\color {blue} #1/\}\}/ 
+\newcommand{\question}[1]{{\color {red} #1/\}\}/ 
+\newcommand{\ie}{\emph{i.e./\}\}/ 
+\newcommand{\eg}{\emph{e.g./\}\}/ 
+```-->
 <img width="332" alt="Screen Shot 2024-05-02 at 7 20 54 AM" src="https://github.com/fedhere/FASTlab/assets/1696902/05cdee35-c09c-4e95-990d-4c8d6f265b21">
 
 
@@ -42,12 +42,12 @@ Consider adding a macro with a different color (like the ones defined above as \
 - quotes should be `` ' ' instead of “” in latex (that is 2 single slanted quotes to open, two straight down quotes to close)
 
 - create macros for common variables you will need to refer to often, so that they are formatted consistently throughout: e.g. kilometer per second as $km s^{-1}$, or *SNR* for signal-to-noise-ratio if you are writing an data analysis paper, or IoU for Intersection over Union if you are writing a computational paper, or Eta Carinae as $\eta-$ Car if you are writing an astro paper. This is done as follows: 
-%```
-%\newcommand{\kms}{\ensuremath{{km}{s^1}/\}\}/ 
-%\newcommand{\SNR}{\ensuremath{\mathrm{\emph{SNR}/\}\}\}
-%\newcommand{\iou}{\ensuremath{\mathrm{{IoU}}}
-%\newcommand{\etacar}{\ensuremath{\mathrm{\eta-\emph{Car}/\}\}\}
-%```
+<!--```
+\newcommand{\kms}{\ensuremath{{km}{s^1}/\}\}/ 
+\newcommand{\SNR}{\ensuremath{\mathrm{\emph{SNR}/\}\}\}
+\newcommand{\iou}{\ensuremath{\mathrm{{IoU}}}
+\newcommand{\etacar}{\ensuremath{\mathrm{\eta-\emph{Car}/\}\}\}
+```-->
 <img width="528" alt="Screen Shot 2024-05-02 at 7 25 28 AM" src="https://github.com/fedhere/FASTlab/assets/1696902/a2b0d2ad-e243-432e-8b50-9e42ea4b9c3c">
 
 
