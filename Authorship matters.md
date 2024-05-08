@@ -2,7 +2,7 @@ There are many ways to measure an academic career, but the most common ones use 
 
 The sheer number of papers you publish matters when you are looking for jobs. I have lots of opinions about the pros and cons of using this metric to value scientists, but that is a fact. 
 
-I want to set clear rules and expectations for when a FASTLab group member is included in a publication of the FASTLab, but also discuss what your expectations should be when you collaborate with people outside our team and when you should be expected to be a coauthor on publications. 
+I want to set clear rules and expectations for when a FASTLab group member is included in a publication of the FASTLab, but also discuss what your expectations should be when you collaborate with people outside of our team and when you should be expected to be a coauthor on publications. 
 
 The basic rule is that **anyone who made a contribution of creative content to the project should be a coauthor**. But this statement is awfully ambiguous. We have lots of conversations with colleagues in academia, and one could argue all of them contribute to the creative process after all!
 
