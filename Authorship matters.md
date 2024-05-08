@@ -1,4 +1,4 @@
-There are many ways to measure an academic career, but the most common ones use some form of "impact": how prolific an author is and many citations does their work generates. 
+There are many ways to measure an academic career, but the most common ones use some form of "impact": how prolific an author is and how many citations does their work generates. 
 
 The sheer number of papers you publish matters when you are looking for jobs. I have lots of opinions about the pros and cons of using this metric to value scientists, but that is a fact. 
 
