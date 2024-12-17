@@ -23,7 +23,9 @@ foo2.py : Summary of what you did to foo2.py (or if it is new, what it does) wit
 ### 1.2 Written words
 
 Section 1 of paper BLAH: if you are writing a paper or report  talk about what sections you are workign on and what the status is
+
 Section 2 of paper BLAH: if you are writing a paper or report talk about what sections you are workign on and what the status is
+
 .
 .
 .
