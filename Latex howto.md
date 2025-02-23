@@ -1,6 +1,9 @@
 If you have never used LaTeX, start with this "LaTeX in 30 min" webpage offered by Overleaf https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
 Overleaf is the platform on which we can collaboratively edit latex-based articles. When you want to start a new paper or report, go to [overleaf.com](https://www.overleaf.com)
 
+
+Most of the shortcuts and settings described here can be copied and pasted from this overleaf file https://www.overleaf.com/read/zfyqpqsqmcyy#b68997
+
 ## creating the document
 
 UD CAS supports Overleaf upgraded subscriptions! make sure you get the upgraded subscription thorugh UD so you can activate the "track changes" after you finish your first draft and invite more than one coauthor.
@@ -25,7 +28,7 @@ Then use `\new{...}` to change or add new text after discussions and suggestions
 
 Consider adding a macro with a different color (like the ones defined above as \new and \question) for each coauthor if its a small number of coauthors: e.g. 
 
-<img width="290" alt="Screen Shot 2024-05-02 at 7 31 58 AM" src="https://github.com/fedhere/FASTlab/assets/1696902/8483fbb6-4d3b-4c30-9faf-4bfe9cb4af2c">
+<img width="241" alt="Screenshot 2025-02-23 at 12 39 45 PM" src="https://github.com/user-attachments/assets/9a429caa-1cfd-4782-91fa-98d193ae5876" />
 
 ## latex and common and editorial syntax rules
 
