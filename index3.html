@@ -59,6 +59,18 @@
 					grid-template-columns: 1fr;
 				}
 			}
+
+            /* Banner Styling */
+            .full-width-banner {
+                position: relative;
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .banner-image {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
 		</style>
 	</head>
 	<body class="is-preload">
@@ -227,7 +239,7 @@
 									</header>
 									
 									<!-- DEI Resources -->
-									<div class="content">
+									<div id="dei-resources" class="content">
 										<h3>DEI Resources</h3>
 										<ul>
 											<li><a href="#">Code of Conduct: rules of engagement for FASTlab team members</a></li>
@@ -236,7 +248,7 @@
 									</div>
 									
 									<!-- Research Inclusion Resources -->
-									<div class="content">
+									<div id="research-inclusion" class="content">
 										<h3>Research Inclusion Resources</h3>
 										<ul>
 											<li><a href="#">Creating graphics with accessible visual content</a></li>
@@ -245,7 +257,7 @@
 									</div>
 									
 									<!-- Research and Coding Resources -->
-									<div class="content">
+									<div id="coding-resources" class="content">
 										<h3>Research and Coding Resources</h3>
 										<ul>
 											<li><a href="#">So your code is not working: how to ask for help</a></li>
@@ -321,7 +333,15 @@
 										<li><a href="index3.html">Home</a></li>
 										<li><a href="#research">Research</a></li>
 										<li><a href="#team">Team</a></li>
-										<li><a href="#resources">Resources</a></li>
+										<li>
+											<span class="opener">Resources</span>
+											<ul>
+												<li><a href="#resources">All Resources</a></li>
+												<li><a href="#dei-resources">DEI Resources</a></li>
+												<li><a href="#research-inclusion">Research Inclusion</a></li>
+												<li><a href="#coding-resources">Coding Resources</a></li>
+											</ul>
+										</li>
 										<li><a href="#publications">Publications</a></li>
 										<li><a href="gallery.html">Publications Gallery</a></li>
 									</ul>
