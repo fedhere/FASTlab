@@ -71,6 +71,45 @@
                 height: auto;
                 display: block;
             }
+            /* Circular Logo Overlay */
+            .logo-overlay {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 30%;
+                min-width: 80px;
+                max-width: 200px;
+                height: auto;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                overflow: hidden;
+                border: none;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+                z-index: 10;
+            }
+            .logo-overlay img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            
+            /* Responsive text sizing */
+            #banner .content p {
+                font-size: clamp(1rem, 0.9rem + 0.3vw, 1.2rem);
+                line-height: 1.5;
+                margin-bottom: 1em;
+            }
+            #banner .content header p {
+                font-size: clamp(1.1rem, 1rem + 0.4vw, 1.4rem);
+                line-height: 1.4;
+                margin-bottom: 0.5em;
+            }
+            #banner .content header h1 {
+                font-size: clamp(2rem, 1.8rem + 0.8vw, 2.8rem);
+                line-height: 1.2;
+                margin-bottom: 0.2em;
+            }
 		</style>
 	</head>
 	<body class="is-preload">
@@ -84,20 +123,20 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<div class="content">
+									<div class="content" style="padding-right: 1em;">
 										<header>
 											<h1>FASTLab<br />
 											</h1>
-											<p>Federica AstroSTatistics Lab</p>
+											<p>Federica's AstroSTatistics Lab</p>
 										</header>
-										<p>We study explosive transients in the sky and develop methods to analyze large datasets in astronomy and urban science.</p>
-										<ul class="actions">
-											<li><a href="#research" class="button big">Learn More</a></li>
-										</ul>
+										<p><br>We study explosive transients in the sky and develop methods to analyze large datasets in astronomy and urban science.</p>
 									</div>
-									<span class="image object">
-										<img src="images/banner.jpg" alt="FASTLab Banner" />
-									</span>
+									<div class="full-width-banner">
+										<img src="images/banner.jpg" alt="Banner" class="banner-image">
+										<div class="logo-overlay">
+											<img src="images/fastlablogo.jpg" alt="FAST Lab Logo">
+										</div>
+									</div>
 								</section>
 
 							<!-- Research Section -->
