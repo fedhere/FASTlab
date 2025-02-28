@@ -110,6 +110,57 @@
                 line-height: 1.2;
                 margin-bottom: 0.2em;
             }
+
+            /* Background Image Styling */
+            body {
+                background-color: #494949;
+                position: relative;
+            }
+            
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('images/banner.jpg');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity: 0.15;
+                z-index: -1;
+                filter: brightness(1.1) contrast(0.9);
+            }
+            
+            /* Add semi-transparent background to content sections for better readability */
+            #main .inner section {
+                background-color: rgba(255, 255, 255, 0.85);
+                border-radius: 5px;
+                padding: 1.5em;
+                margin-bottom: 2em;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            }
+            
+            #sidebar {
+                background-color: rgba(244, 244, 249, 0.9);
+            }
+            
+            /* Enhance header contrast for better readability */
+            .major h2, .major h3 {
+                position: relative;
+                padding-bottom: 0.5em;
+            }
+            
+            .major h2::after, .major h3::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: linear-gradient(to right, #4a4a7a, transparent);
+            }
 		</style>
 	</head>
 	<body class="is-preload">
