@@ -259,4 +259,27 @@
 
 			});
 
+	// Abstract Toggles (in gallery.html)
+	var $abstractToggles = $('.abstract-toggle');
+
+	$abstractToggles.each(function() {
+		var $this = $(this);
+
+		$this.on('click', function(event) {
+			event.preventDefault();
+			
+			var $abstract = $this.next('.abstract-content');
+			
+			$abstract.slideToggle('fast', function() {
+				// Update button text after animation completes
+				if ($abstract.is(':visible')) {
+					$this.text('Hide Abstract');
+				} else {
+					$this.text('Show Abstract');
+				}
+			});
+			
+		});
+	});
+
 })(jQuery);

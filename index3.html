@@ -13,155 +13,6 @@
 		<link rel="icon" sizes="192x192" href="http://fbb.space/images/diffraction_icon.png">
 		<link rel="shortcut icon" href="http://fbb.space/images/diffraction_icon.png" type="image/x-icon"/>
 		<link rel="apple-touch-icon" href="http://fbb.space/images/diffraction_icon.png" type="image/x-icon"/>
-		<style>
-			.team-image {
-				border-radius: 50%;
-				width: 100%;
-				max-width: 200px;
-				height: auto;
-				object-fit: cover;
-				aspect-ratio: 1/1;
-				margin: 0 auto;
-				display: block;
-			}
-			
-			.team-image-container {
-				text-align: center;
-				margin-bottom: 1rem;
-			}
-			
-			.team-post {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				text-align: center;
-			}
-			
-			/* Grid layout for team members - 3 per row */
-			.team-grid {
-				display: grid;
-				grid-template-columns: repeat(3, 1fr);
-				gap: 2em;
-			}
-			
-			/* Responsive adjustments */
-			@media screen and (max-width: 980px) {
-				.team-grid {
-					grid-template-columns: repeat(2, 1fr);
-				}
-			}
-			
-			@media screen and (max-width: 736px) {
-				.team-image {
-					max-width: 150px;
-				}
-				.team-grid {
-					grid-template-columns: 1fr;
-				}
-			}
-
-            /* Banner Styling */
-            .full-width-banner {
-                position: relative;
-                width: 100%;
-                margin-bottom: 1em;
-            }
-            .banner-image {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
-            /* Circular Logo Overlay */
-            .logo-overlay {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 30%;
-                min-width: 80px;
-                max-width: 200px;
-                height: auto;
-                aspect-ratio: 1/1;
-                border-radius: 50%;
-                overflow: hidden;
-                border: none;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-                z-index: 10;
-            }
-            .logo-overlay img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-            
-            /* Responsive text sizing */
-            #banner .content p {
-                font-size: clamp(1rem, 0.9rem + 0.3vw, 1.2rem);
-                line-height: 1.5;
-                margin-bottom: 1em;
-            }
-            #banner .content header p {
-                font-size: clamp(1.1rem, 1rem + 0.4vw, 1.4rem);
-                line-height: 1.4;
-                margin-bottom: 0.5em;
-            }
-            #banner .content header h1 {
-                font-size: clamp(2rem, 1.8rem + 0.8vw, 2.8rem);
-                line-height: 1.2;
-                margin-bottom: 0.2em;
-            }
-
-            /* Background Image Styling */
-            body {
-                background-color: #494949;
-                position: relative;
-            }
-            
-            body::before {
-                content: '';
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-image: url('images/banner.jpg');
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                opacity: 0.15;
-                z-index: -1;
-                filter: brightness(1.1) contrast(0.9);
-            }
-            
-            /* Add semi-transparent background to content sections for better readability */
-            #main .inner section {
-                background-color: rgba(255, 255, 255, 0.85);
-                border-radius: 5px;
-                padding: 1.5em;
-                margin-bottom: 2em;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-            }
-            
-            #sidebar {
-                background-color: rgba(244, 244, 249, 0.9);
-            }
-            
-            /* Enhance header contrast for better readability */
-            .major h2, .major h3 {
-                position: relative;
-                padding-bottom: 0.5em;
-            }
-            
-            .major h2::after, .major h3::after {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 2px;
-                background: linear-gradient(to right, #4a4a7a, transparent);
-            }
-		</style>
 	</head>
 	<body class="is-preload">
 
@@ -171,6 +22,10 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
+							<!-- Header -->
+							<header id="header">
+								<!-- <strong>FASTLab Homepage</strong> -->
+							</header>
 
 							<!-- Banner -->
 								<section id="banner">
@@ -312,6 +167,17 @@
 											<p><strong>PhD Candidate</strong></p>
 											<p>Shar is applying neural networks to continuous readout astronomical images, where one of the spatial axes tracks time, to explore the subsecond astrophysical domain.</p>
 										</article>
+
+										<!-- Rodiat -->
+										<article class="team-post">
+											<div class="team-image-container">
+												<img src="images/avatars/rodiat.png" alt="Rodiat Ayinde" class="team-image" />
+											</div>
+											<h4>Rodiat Ayinde (TBC)</h4>
+											<p><strong>TBC</strong></p>
+											<p>TBC.</p>
+										</article>
+
 									</div>
 
 									<!-- Alumni Section -->
@@ -353,8 +219,8 @@
 									<div id="dei-resources" class="content">
 										<h3>DEI Resources</h3>
 										<ul>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/CodeOfConduct.md">Code of Conduct: rules of engagement for FASTlab team members</a></li>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/UDelResources.md">UD Resources</a></li>
+											<li><a href="CodeOfConduct.md">Code of Conduct: rules of engagement for FASTlab team members</a></li>
+											<li><a href="UDelResources.md">UD Resources</a></li>
 											<li><a href="https://dpacdeicommittee.github.io/">UD DPA Climate Equity Inclusion Committee</a></li>
 										</ul>
 									</div>
@@ -363,8 +229,8 @@
 									<div id="research-inclusion" class="content">
 										<h3>Research Inclusion Resources</h3>
 										<ul>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/AccessibleVisualContent.md">Creating graphics with accessible visual content</a></li>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/AccessibleVisualContent.md">Fair authorship rules</a></li>
+											<li><a href="AccessibleVisualContent.md">Creating graphics with accessible visual content</a></li>
+											<li><a href="Authorship matters.md">Fair authorship rules</a></li>
 										</ul>
 									</div>
 									
@@ -372,13 +238,13 @@
 									<div id="coding-resources" class="content">
 										<h3>Research and Coding Resources</h3>
 										<ul>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/Questions_and_answers.md">So your code is not working: how to ask for help</a></li>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/git%26Github.md">Github and Git resources</a></li>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/minimumPEP8.md">Minimum PEP8 style guides</a></li>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/bashCommands.md">How to use the terminal (bash)</a></li>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/dockerInstallation.md">Installing docker</a></li>
-											<li><a href="https://github.com/fedhere/FASTlabTeamResources/blob/master/dockerBasicInstructions.md">Using docker containers</a></li>
-											<li><a href="https://github.com/fedhere/FASTlab/blob/master/Setting%20up%20an%20interactive%20session%20on%20caviness.md">Setting up an interactive session on caviness</a></li>
+											<li><a href="Coding_Questions_and_answers.md">So your code is not working: how to ask for help</a></li>
+											<li><a href="git&Github.md">Github and Git resources</a></li>
+											<li><a href="minimumPEP8.md">Minimum PEP8 style guides</a></li>
+											<li><a href="bashCommands.md">How to use the terminal (bash)</a></li>
+											<li><a href="dockerInstallation.md">Installing docker</a></li>
+											<li><a href="dockerBasicInstructions.md">Using docker containers</a></li>
+											<li><a href="Setting up an interactive session on caviness.md">Setting up an interactive session on caviness</a></li>
 										</ul>
 									</div>
 									
