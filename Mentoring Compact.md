@@ -27,7 +27,7 @@ To provide comprehensive mentorship and guidance to FASTLab Graduate Students in
 
 ## Mentorship Plan:
 
-###1. Establishing Clear Expectations:
+### 1. Establishing Clear Expectations:
 Transitioning into dissertation status and during the design of the dissertation, the Mentee and the Mentor met to establish reciprocal goals and expectations. 
 Dr. Bianco’s research group’s responsibilities and expectations are outlined in the FASTLab manuals available at 
 https://github.com/fedhere/FASTlab/blob/master/Roles%20and%20Responsibilities.md
