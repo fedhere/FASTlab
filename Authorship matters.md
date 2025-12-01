@@ -10,6 +10,10 @@ I generally have a liberal policy on co-authorship: I tend to be inclusive. Othe
 
 As a rule: **anyone who contributes text or code to a project will be included as a coauthor**. **If data collection was involved for this project, the person that collected the data will be included as a coauthor** .If it ever occurs that you are not listed as a coauthor on a project for which you contributed any of these elements please let me know: this would be a mistake! and that is any time. Even if you worked on the project years ago and it gets published now, you should be a coauthor. **no statute of limitation!**
 
+A special case would be if someone has worked on a project but their work is in the end not used toward the final publication, e.g. they may have developed a method for a task, which in the end did not work. I think this should be split further into two case: 
+      - if someone is asked to help with a paper, even if their solution is not used, they should be included as author if they have worked on the project
+      - if someone asks to try something they think may work as a solution to a problem in an existing project, but the solution does not work, then they need not be added as coauthor
+
 As an idea turns into a project tho, someone may make foundational contributions in conversations. This is a gray area, but again, my approach is to be inclusive. If you feel that you did have foundational contributions even if you did not contribute code or text, let me know, and let's discuss it. 
 
 Authorship order also matters. It is different in different fields but in Astronomy, Public Policy, Urban Science, it is generally understood that the lead author (first author) is the main contributor. 
