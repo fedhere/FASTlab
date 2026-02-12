@@ -77,3 +77,12 @@ Tamara Munzner [Visualization Analysis & Design, 2014](http://www.cs.ubc.ca/~tmm
 
 
 [Using preattemptive processing elements](https://pdfs.semanticscholar.org/0456/bc9cdf02c3a446e252cf2e6b83145e17749a.pdf)
+
+To make your own maps:
+
+[color brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+ 
+[sashamaps](https://sashamaps.net/docs/resources/20-colors/)
+ 
+(davidmathlogic.com)[https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40}
+
