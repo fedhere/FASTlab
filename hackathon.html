@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LSST is here! DP2 Hackathon @ University of Delaware</title>
+  <meta name="description" content="A two-day hackathon at the University of Delaware to make astronomical discoveries in Rubin Observatory's LSST Data Preview 2. August 18–19, 2026.">
+
+  <style>
+    :root {
+      --pop: #00BaBc;
+      --ink: #1F2121;
+      --muted: #565656;
+      --faint: #373739;
+      --accent: #058B8C;
+      --accent-dark: #0c4a47;
+      --rule: #e6e6e6;
+      --bg: #F5F5F5;
+      --wrap: 850px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      border-top: 5px solid var(--pop);
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: var(--wrap);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-dark); }
+
+    .topbar {
+      border-bottom: 1px solid var(--rule);
+    }
+    .topbar .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: center;
+      gap: 8px 20px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+    .navlinks {
+      display: flex;
+      gap: 22px;
+      font-size: 0.92rem;
+    }
+    .navlinks a {
+      text-decoration: none;
+      color: var(--muted);
+    }
+    .navlinks a:hover { color: var(--accent); }
+
+    .hero {
+      padding: 76px 0 60px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .hero .eyebrow {
+      margin: 0 0 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .hero h1 {
+      margin: 0 0 14px;
+      font-size: 2.5rem;
+      line-height: 1.1;
+      letter-spacing: -0.015em;
+      font-weight: 700;
+    }
+    .hero .meta {
+      margin: 0 0 22px;
+      color: var(--accent);
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+    .hero p.lede {
+      margin: 0 0 30px;
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 34em;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 12px 26px;
+      border-radius: 4px;
+      border: 1px solid var(--accent);
+    }
+    .btn:hover { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+    .btn:focus-visible { outline: 3px solid #a9c2e0; outline-offset: 2px; }
+
+    .note {
+      margin: 16px 0 0;
+      font-size: 0.9rem;
+      color: var(--faint);
+    }
+
+    section { padding: 56px 0; border-bottom: 1px solid var(--rule); }
+    section h2 {
+      margin: 0 0 22px;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    section p { margin: 0 0 18px; }
+    section p:last-child { margin-bottom: 0; }
+
+    .projects { margin: 0; padding-left: 1.2em; }
+    .projects li { margin: 0 0 12px; }
+    .projects li:last-child { margin-bottom: 0; }
+
+    .agenda-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    .day h3 {
+      margin: 0 0 4px;
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+    .day .date {
+      margin: 0 0 16px;
+      font-size: 0.85rem;
+      color: var(--faint);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .schedule { margin: 0; }
+    .slot {
+      display: grid;
+      grid-template-columns: 68px 1fr;
+      gap: 12px;
+      padding: 7px 0;
+      border-top: 1px solid var(--rule);
+      font-size: 0.96rem;
+    }
+    .slot:first-child { border-top: none; }
+    .slot .time {
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    .slot.break .desc { color: var(--faint); }
+
+    footer {
+      padding: 44px 0 60px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    footer .logos {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      margin: 0 0 28px;
+    }
+    footer .logos img {
+      height: 38px;
+      width: auto;
+    }
+    footer .org-label {
+      color: var(--faint);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 0.78rem;
+      margin: 0 0 6px;
+    }
+    footer p { margin: 0 0 8px; }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2rem; }
+      .hero { padding: 52px 0 44px; }
+      .agenda-grid { grid-template-columns: 1fr; gap: 36px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap">
+      <nav class="navlinks">
+        <a href="#about">About</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <div class="hero">
+      <div class="wrap">
+        <p class="eyebrow">FASTLab presents</p>
+        <h1><em>LSST is here!</em> DP2 Hackathon</h1>
+        <p class="meta">University of Delaware · August 18–19, 2026</p>
+        <p class="lede">Two day hackathon on Rubin Observatory's LSST Data Preview 2 — we will explore the new data, and discover objects from transients and variable stars to brown dwarfs while making new collaborations!</p>
+        <a class="btn" id="register" href="https://forms.gle/cjh9HKJfdDVNCdEGA">Register</a>
+        <p class="note"><strong>Registration closes August 10, 2026.</strong> Travel support is available.</p>
+        <p class="note">Participants should be Rubin data rights holders and bring a laptop.</p>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>About</h2>
+        <p>The Legacy Survey of Space and Time (LSST) has started at the Vera C. Rubin Observatory in Chile. Ahead of the full data release, the Rubin team is publishing <strong>Data Preview 2 (DP2)</strong> on July 27, 2026 — an early look at the survey's data.</p>
+        <p>Over the two day workshop at the University of Delaware, participants will work together in small groups to explore DP2 using LINCC Frameworks tools (Hyrax, LSDB, HATS) on the Rubin Science Platform. We especially welcome early-career researchers to join us at the University of Delaware.</p>
+      </div>
+    </section>
+
+    <section id="agenda">
+      <div class="wrap">
+        <h2>Agenda</h2>
+        <div class="agenda-grid">
+
+          <div class="day">
+            <h3>Day 1</h3>
+            <p class="date">Tuesday, August 18</p>
+            <div class="schedule">
+              <div class="slot"><span class="time">9:00</span><span class="desc">Welcome &amp; check-in</span></div>
+              <div class="slot"><span class="time">9:30</span><span class="desc">Goals, logistics &amp; project overview</span></div>
+              <div class="slot"><span class="time">10:00</span><span class="desc">LINCC Frameworks tutorials: Hyrax, LSDB, HATS</span></div>
+              <div class="slot break"><span class="time">11:00</span><span class="desc">Coffee break</span></div>
+              <div class="slot"><span class="time">11:30</span><span class="desc">Form working groups; begin discussions</span></div>
+              <div class="slot break"><span class="time">12:30</span><span class="desc">Lunch</span></div>
+              <div class="slot"><span class="time">1:30</span><span class="desc">Working session</span></div>
+              <div class="slot break"><span class="time">3:00</span><span class="desc">Coffee break</span></div>
+              <div class="slot"><span class="time">3:30</span><span class="desc">Working session</span></div>
+              <div class="slot"><span class="time">4:30</span><span class="desc">Prepare short progress slides</span></div>
+              <div class="slot"><span class="time">4:45</span><span class="desc">Lightning presentations</span></div>
+              <div class="slot"><span class="time">5:00</span><span class="desc">End</span></div>
+            </div>
+          </div>
+
+          <div class="day">
+            <h3>Day 2</h3>
+            <p class="date">Wednesday, August 19</p>
+            <div class="schedule">
+              <div class="slot"><span class="time">9:30</span><span class="desc">Working session</span></div>
+              <div class="slot break"><span class="time">11:00</span><span class="desc">Coffee break</span></div>
+              <div class="slot"><span class="time">11:30</span><span class="desc">Working session</span></div>
+              <div class="slot break"><span class="time">12:30</span><span class="desc">Lunch</span></div>
+              <div class="slot"><span class="time">1:30</span><span class="desc">Report back; plan the afternoon</span></div>
+              <div class="slot"><span class="time">2:00</span><span class="desc">Working session</span></div>
+              <div class="slot break"><span class="time">3:00</span><span class="desc">Coffee break</span></div>
+              <div class="slot"><span class="time">3:30</span><span class="desc">Working session</span></div>
+              <div class="slot"><span class="time">4:30</span><span class="desc">Summarize findings &amp; next steps</span></div>
+              <div class="slot"><span class="time">4:45</span><span class="desc">Wrap-up &amp; follow-up assignments</span></div>
+              <div class="slot"><span class="time">5:00</span><span class="desc">End</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <p>After a morning of tutorials, participants will form small groups around hack projects. You're welcome to bring your own ideas, and some examples include:</p>
+        <ul class="projects">
+          <li><strong>Anomaly detection &amp; light-curve data mining</strong> with neural networks.</li>
+          <li><strong>Recovery of known objects &amp; LSST catalog augmentation</strong> with LSDB/HATS.</li>
+          <li><strong>Any other project you brainstorm</strong> — propose it on the sign-up form.</li>
+        </ul>
+      </div>
+    </section>
+
+
+  </main>
+
+
+<footer>
+  <div class="wrap">
+    <div class="logos" id="logos-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/University_of_Delaware_wordmark.svg" alt="University of Delaware">
+      <img src="https://lsstdiscoveryalliance.org/wp-content/uploads/2023/10/lsst-discovery-alliance-logo.svg" alt="LSST Discovery Alliance">
+      <img src="https://noirlab.edu/public/media/archives/logos/original_trans/logo063.png" alt="Vera C. Rubin Observatory">
+      <img src="https://fedhere.github.io/FASTlab/images/fastlablogo.jpg" alt="FASTLab">
+    </div>
+
+    <p class="org-label">Organizers</p>
+    <p id="organizers-list">Shar Daniels · Siddharth Chaini · Easton Honaker · Tatiana Acero Cuellar · John Gizis · Federica Bianco</p>
+    
+    <p>University of Delaware, Department of Physics &amp; Astronomy</p>
+    <p>Questions? Contact Shar Daniels at <a href="mailto:shard@udel.edu">shard@udel.edu</a>.</p>
+    <p>This event follows the <a href="https://lsstdiscoveryalliance.org/lsst-discovery-alliance-programs/lincc-frameworks/lincc-frameworks-code-conduct/">LINCC Frameworks Code of Conduct</a>.</p>
+  </div>
+</footer>
+
+<script> 
+  // Shuffle the names every load!
+  document.addEventListener("DOMContentLoaded", function() {
+    const namesElement = document.getElementById('organizers-list');
+    if (namesElement) {
+      let names = namesElement.textContent.split(' · ');
+      for (let i = names.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [names[i], names[j]] = [names[j], names[i]];
+      }
+      namesElement.textContent = names.join(' · ');
+    }
+
+  });
+</script>
+
+</body>
+</html>
