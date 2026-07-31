@@ -98,6 +98,21 @@
       max-width: 34em;
     }
 
+    .hero-img-container {
+      margin: 44px auto 0;
+      max-width: 650px; /* Constrains it so it doesn't get overly massive on desktop */
+      text-align: center;
+    }
+    .hero-img-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1.2194;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
     .btn {
       display: inline-block;
       background: var(--accent);
@@ -220,6 +235,10 @@
         <a class="btn" id="register" href="https://forms.gle/cjh9HKJfdDVNCdEGA">Register</a>
         <p class="note"><strong>Registration closes August 10, 2026.</strong> Travel support is available.</p>
         <p class="note">Participants should be Rubin data rights holders and bring a laptop.</p>
+        
+        <div class="hero-img-container">
+          <img src="2026hackathon.png" alt="2026 LSST DP2 Hackathon graphic">
+        </div>
       </div>
     </div>
 
@@ -350,18 +369,4 @@
 <script> 
   // Shuffle the names every load!
   document.addEventListener("DOMContentLoaded", function() {
-    const namesElement = document.getElementById('organizers-list');
-    if (namesElement) {
-      let names = namesElement.textContent.split(' · ');
-      for (let i = names.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [names[i], names[j]] = [names[j], names[i]];
-      }
-      namesElement.textContent = names.join(' · ');
-    }
-
-  });
-</script>
-
-</body>
-</html>
+    const namesElement = document.getEleme
