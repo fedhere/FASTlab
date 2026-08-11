@@ -57,7 +57,9 @@
     }
     .navlinks {
       display: flex;
-      gap: 22px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 22px;
       font-size: 0.92rem;
     }
     .navlinks a {
@@ -147,6 +149,70 @@
     .projects li { margin: 0 0 12px; }
     .projects li:last-child { margin-bottom: 0; }
 
+    /* Ruled rows, same idiom as the agenda slots and participant list. */
+    .resources-lead { margin: 34px 0 18px; }
+    .resources {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .resources li {
+      padding: 10px 0;
+      border-top: 1px solid var(--rule);
+      font-size: 0.96rem;
+    }
+    .resources li:last-child { border-bottom: 1px solid var(--rule); }
+    .resources a { font-weight: 600; }
+    .resources .what { color: var(--faint); }
+
+    .participants {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0 28px;
+    }
+    .participants li {
+      padding: 7px 0;
+      border-top: 1px solid var(--rule);
+      font-size: 0.96rem;
+    }
+
+    /* Collapsed wrapper for the published Google Doc; the iframe is only
+       mounted once someone opens it, so the page stays quick to load. */
+    .doc-embed {
+      margin: 24px 0 0;
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      background: #fff;
+    }
+    .doc-embed > summary {
+      padding: 13px 18px;
+      cursor: pointer;
+      font-size: 0.96rem;
+      font-weight: 600;
+      color: var(--accent);
+      list-style: none;
+    }
+    .doc-embed > summary::-webkit-details-marker { display: none; }
+    .doc-embed > summary::before {
+      content: "\25B8";
+      display: inline-block;
+      margin-right: 10px;
+      transition: transform 0.15s ease;
+    }
+    .doc-embed[open] > summary::before { transform: rotate(90deg); }
+    .doc-embed > summary:hover { color: var(--accent-dark); }
+    .doc-embed > summary:focus-visible { outline: 3px solid #a9c2e0; outline-offset: -3px; }
+    .doc-embed iframe {
+      display: block;
+      width: 100%;
+      height: 640px;
+      border: 0;
+      border-top: 1px solid var(--rule);
+    }
+
     .agenda-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -204,11 +270,15 @@
       margin: 0 0 6px;
     }
     footer p { margin: 0 0 8px; }
+    /* Funder acknowledgement — kept verbatim and a shade darker than the
+       surrounding footer text so it stays legible. */
+    footer .ack { color: var(--ink); }
 
     @media (max-width: 620px) {
       .hero h1 { font-size: 2rem; }
       .hero { padding: 52px 0 44px; }
       .agenda-grid { grid-template-columns: 1fr; gap: 36px; }
+      .doc-embed iframe { height: 460px; }
     }
   </style>
 </head>
@@ -220,6 +290,8 @@
         <a href="#about">About</a>
         <a href="#agenda">Agenda</a>
         <a href="#projects">Projects</a>
+        <a href="#participants">Participants</a>
+        <a href="#local-info">Local Info</a>
       </nav>
     </div>
   </header>
@@ -308,9 +380,64 @@
           <li><strong>Any other project you brainstorm</strong></li>
           <p> You can propose it on the sign-up form or even bring it in person :) </p>
         </ul>
+
+        <p class="resources-lead">These two resources may help with planning the hackathon pitch before you arrive:</p>
+        <ul class="resources">
+          <li><a href="https://docs.google.com/document/d/12acWsZCY3Rm3MaGmt_xl8lPk_gF0sIusTmwXmjMx8xI/edit?usp=sharing">How to pitch a project</a> <span class="what"><br>What to think through ahead of time: the data you will need, your goals, and what a useful result would look like.</span></li>
+          <li><a href="https://docs.google.com/presentation/d/1aS7AUNZAdwehJ8nGGhYpwD1UsPTpYel95FDkybZ0XWc/edit?usp=sharing">Pitch slide deck</a> <span class="what"><br>Add a slide for your project so the group can see it on day one.</span></li>
+        </ul>
       </div>
     </section>
 
+
+    <section id="participants">
+      <div class="wrap">
+        <h2>Registered Participants (<span id="participants-count"></span>)</h2>
+        <ul class="participants" id="participants-list">
+          <li>Huei Sears</li>
+          <li>Koji Shukawa</li>
+          <li>Alexandra Walker</li>
+          <li>Xiaolong Li</li>
+          <li>Nikoo Hosseininezhad</li>
+          <li>Kyle Neumann</li>
+          <li>Alex Malz</li>
+          <li>John Mora</li>
+          <li>Jun Yang</li>
+          <li>Ayan Mitra</li>
+          <li>Ena Chia</li>
+          <li>Behzad</li>
+          <li>Karen Daiana Nowogrodzki</li>
+          <li>Jacen Nisbet</li>
+          <li>Somayeh Khakpash</li>
+          <li>Mathilda Nilsson</li>
+          <li>Ally Baldelli</li>
+          <li>Shar Daniels (OC)</li>
+          <li>Siddharth Chaini (OC)</li>
+          <li>Easton Honaker (OC)</li>
+          <li>Tatiana Acero Cuellar (OC)</li>
+          <li>John Gizis (OC)</li>
+          <li>Federica Bianco (OC)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="local-info">
+      <div class="wrap">
+        <h2>Local Information</h2>
+        <p>How to get here and settle in: the venue, travel information, parking, lodging within walking distance of campus, and where to eat in Newark. This list has been kept on a Google Doc and will be updated frequently. We encourage taking a train over a flight if you can!</p>
+        <a class="btn" href="https://docs.google.com/document/d/10-9XmRzb-m_FCxqX6dcnKVHQ4k0x1qyCyvookn4hTos/edit?usp=sharing">Open in Google Docs</a>
+
+        <details class="doc-embed" id="local-info-doc">
+          <summary>Read it without leaving this page here</summary>
+          <iframe
+            title="Local information for the DP2 Hackathon: venue, travel, parking, lodging and food"
+            data-src="https://docs.google.com/document/d/e/2PACX-1vShQ5LmPkFKXTkEn5-xoA81d_NB9BgS_eal1fSnEzSOFIAhtww7geBM6v7Nr5dMWnh1zs3-sdATEr7h/pub?embedded=true"
+            loading="lazy"></iframe>
+        </details>
+
+        <p class="note">Recommendations are welcome!</p>
+      </div>
+    </section>
 
     <section id="code-of-conduct">
       <div class="wrap">
@@ -361,7 +488,7 @@
     <p class="org-label">Organizers</p>
     <p id="organizers-list">Shar Daniels · Siddharth Chaini · Easton Honaker · Tatiana Acero Cuellar · John Gizis · Federica Bianco</p>
     <p>University of Delaware, Department of Physics &amp; Astronomy</p>
-    <p>Supported by LINCC Frameworks.</p>
+    <p class="ack">This event is supported by Schmidt Sciences and LSST Discovery Alliance.</p>
     <p>Contact <a href="mailto:shard@udel.edu">Shar Daniels</a> for questions.</p>
   </div>
 </footer>
@@ -369,4 +496,43 @@
 <script> 
   // Shuffle the names every load!
   document.addEventListener("DOMContentLoaded", function() {
-    const namesElement = document.getEleme
+    // Fisher-Yates, in place — nobody gets permanent top billing.
+    function shuffle(items) {
+      for (let i = items.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [items[i], items[j]] = [items[j], items[i]];
+      }
+      return items;
+    }
+
+    const namesElement = document.getElementById('organizers-list');
+    if (namesElement) {
+      const names = shuffle(namesElement.textContent.split(' · '));
+      namesElement.textContent = names.join(' · ');
+    }
+
+    // Participants stay in the order they are listed in the markup; only the
+    // count is filled in, straight from the list, so it cannot drift.
+    const participantsElement = document.getElementById('participants-list');
+    const countElement = document.getElementById('participants-count');
+    if (participantsElement && countElement) {
+      countElement.textContent = participantsElement.children.length;
+    }
+
+    // The published doc is a heavy embed, so only load it once it is opened.
+    const docDetails = document.getElementById('local-info-doc');
+    if (docDetails) {
+      docDetails.addEventListener('toggle', function() {
+        const frame = docDetails.querySelector('iframe[data-src]');
+        if (docDetails.open && frame) {
+          frame.src = frame.dataset.src;
+          frame.removeAttribute('data-src');
+        }
+      });
+    }
+
+  });
+</script>
+
+</body>
+</html>
