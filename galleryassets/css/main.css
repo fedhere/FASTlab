@@ -996,6 +996,61 @@ hr {
           .row.gtr-200.gtr-uniform > * {
             padding-top: 3em; } }
 
+.custom-list {
+  list-style: none; /* Removes default bullet points */
+  padding-left: 0;
+}
+
+.custom-list li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* The "Favicon" Square Style */
+.custom-list .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px; /* Slightly rounded corners like a real favicon */
+  color: white;
+  font-size: 16px;
+  flex-shrink: 0; /* Prevents the icon from shrinking on small screens */
+}
+
+/* Category Colors (match these to your branding) */
+.urban { background-color: #8E44AD; } /* purple */
+.design { background-color: #8E44AD; } /* Orange for creativity */
+.music { background-color: #1A1A2E; } /* deepspace */
+.astro { background-color: #E67E22; } /* blue*/
+.policy { background-color: #70392B; } /* Red for government */
+.med { background-color: #27AE60; } /* Green for health */
+.datascience { background-color: #a7e2f1; }
+
+
+.custom-list .nsf {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  min-height: 34px;
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  overflow: hidden; /* Prevents overflow */
+}
+
+.custom-list .nsf img {
+  max-width: 28px !important; /* Caps the size */
+  max-height: 28px !important; /* Caps the size */
+  object-fit: contain; /* Keeps proportions */
+}
+
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
